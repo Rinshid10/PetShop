@@ -2,7 +2,6 @@ class ProdectModels {
   String? status;
   List<Data>? data;
   ProdectModels({required this.data, required this.status});
-
   factory ProdectModels.fromJson(Map<String, dynamic> json) {
     return ProdectModels(
         data: (json['data'] as List).map((i) => Data.fromJson(i)).toList(),

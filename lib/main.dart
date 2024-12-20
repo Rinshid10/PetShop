@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:petshop/view/SplashScreen/splashscreen.dart';
 import 'package:petshop/view/homepage/homepage.dart';
 import 'package:petshop/view/loginPage/loginpage.dart';
 import 'package:petshop/viewModel/cartprovider.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         )
       ],
       child: MaterialApp(
-        home: Loginpage(),
+        home: SplashScreen(),
       ),
     );
   }
